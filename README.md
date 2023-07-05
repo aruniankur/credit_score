@@ -18,3 +18,14 @@ The dataset used in this project is stored in a CSV file named credit_risk_datas
 | loan_percent_income          | Percent income                   |
 | cb_person_default_on_file    | Historical default               |
 | cb_preson_cred_hist_length   | Credit history length            |
+
+
+## Preprocessing
+
+To prepare the dataset for modeling, the following steps are performed:
+
+Loading the Dataset: The dataset is loaded into a pandas DataFrame using the read_csv() function.
+
+Handling Missing Values: Any rows with missing values are removed from the dataset using the dropna() function. This ensures that the model is trained on complete data.
+
+One-Hot Encoding: Categorical variables, such as person_home_ownership, loan_intent, are encoded using one-hot encoding. This converts each category into a binary column, making it suitable for training machine learning models.
