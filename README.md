@@ -31,28 +31,6 @@ Handling Missing Values: Any rows with missing values are removed from the datas
 One-Hot Encoding: Categorical variables, such as person_home_ownership, loan_intent, are encoded using one-hot encoding. This converts each category into a binary column, making it suitable for training machine learning models.
 
 
-
-Certainly! Here's an example of the content you can include in the README file for your credit score project:
-
-Credit Score Project
-This project aims to build a credit score model using a dataset containing credit-related information. The goal is to predict creditworthiness based on various features such as age, income, and employment status.
-
-Dataset
-The dataset used in this project is stored in a CSV file named credit_data.csv. It contains the following columns:
-
-Age: The age of the individual.
-Income: The income of the individual.
-Employment_Status: The employment status of the individual.
-Credit_Score: The credit score of the individual (target variable).
-Data Preprocessing
-To prepare the dataset for modeling, the following steps are performed:
-
-Loading the Dataset: The dataset is loaded into a pandas DataFrame using the read_csv() function.
-
-Handling Missing Values: Any rows with missing values are removed from the dataset using the dropna() function. This ensures that the model is trained on complete data.
-
-One-Hot Encoding: Categorical variables, such as Employment_Status, are encoded using one-hot encoding. This converts each category into a binary column, making it suitable for training machine learning models.
-
 ## Model Training
 
 
