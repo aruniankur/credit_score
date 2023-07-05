@@ -1,7 +1,7 @@
 # credit_score_Project
 
 This project aims to build a credit score model using a dataset containing credit-related information. The goal is to predict creditworthiness based on various features such as age, income, and employment status.
-##dataset 
+## dataset 
 The dataset used in this project is stored in a CSV file named credit_risk_dataset.csv. It contains the following columns:
 
 | Feature Name                 | Description                      |
